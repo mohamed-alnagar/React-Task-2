@@ -1,0 +1,31 @@
+.about{
+    background-color:#F8F8F8;
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px;
+}
+.about button:hover{
+    background-color:#86D2CE;
+
+}
+
+.about-img{
+    width: 100%;
+}
+
+.about-img img {
+  width: 50%;
+}
+.btn-blue{
+    background-color: #86D2CE;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.btn-blue:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}

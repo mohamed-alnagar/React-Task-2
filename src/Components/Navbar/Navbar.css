@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    border-bottom: 1px solid #ddd;
+      flex-wrap: wrap; 
+
+   
+}
+.logo{
+    font-weight: bold;
+    font-size: 25px;
+    color: #111;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    list-style: none;
+    font-family: sans-serif;
+    transition: all 0.3s ease;
+    flex-wrap: wrap;
+}
+.nav-links li {
+    cursor: pointer;
+    font-size: 18px;
+}
+.nav-links li:hover{
+    color: black;
+    text-decoration: underline;
+}
+.login {
+  display: flex;
+  align-items: center;
+  gap: 15px; 
+  font-size: 18px;
+  flex-wrap: wrap;
+}
+
+.login-text {
+  color: #333;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  font-family: sans-serif;
+    transition: transform 0.3s ease, color 0.3s ease;
+
+}
+
+.login-text:hover {
+  color: #000000;
+  transform: scale(1.2);
+
+
+}
+
+.user-icon {
+  color: #555;
+  font-size: 20px;
+  cursor: pointer;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.user-icon:hover {
+  color: #000000; 
+  transform: scale(1.2);
+}
+
+.search-icon {
+  color: #666;
+  font-size: 20px;
+  cursor: pointer;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.search-icon:hover {
+  color: #000000;
+  transform: rotate(15deg) scale(1.2);
+}
+
